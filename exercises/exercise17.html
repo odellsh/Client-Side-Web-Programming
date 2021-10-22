@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"> 
+<head>
+    <meta charset="utf-8">
+    <title>Time</title>
+</head>
+<body>
+    <h1 id="timeheader">12:00:00</h1>
+    <script>
+        //Create the anonymous_function. Run setTimout using IIFE.
+        setInterval((x) => {
+            let currDate = new Date();
+            let hrs = currDate.getHours();
+            let mins = currDate.getMinutes();
+            let secs = currDate.getSeconds();
+            
+            if(mins < 10){
+                mins = "0" + minutes;
+            }
+            if(hrs < 10){
+                hrs = "0" + hours;
+            }
+            if(secs < 10){
+                secs = "0" + secs;
+            }
+            let th = document.getElementById("timeheader");
+            th.innerHTML = hrs + ":" + mins + ":" + secs;
+        })(1000);
+    </script>
+</body>
+</html>

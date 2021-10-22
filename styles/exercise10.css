@@ -1,0 +1,43 @@
+body {
+    text-align: left;
+    background-color: khaki;
+}
+p.first {
+    background-color: lightgray;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+p.second {
+    background-color: lightgray;
+    margin-left: 175px;
+    margin-right: 175px;
+    box-shadow: 5px 5px 0px 0px gray;
+}
+p.third {
+    border: 5px solid black;
+    padding: 40px;
+    margin-left: 210px;
+    margin-right: 210px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 0px 0px gray;
+    
+}
+p.fourth {
+    border: 5px solid black;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 5px 5px 0px 0px gray;
+    border-radius: 5em 5em 5em 5em / 5em 5em 5em 5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 14px;
+}
+p.fifth {
+    border: 13px solid;
+    padding: 5px;
+    border-image: url(../images/border-3.png) 33% round;
+    margin-left: 175px;
+    margin-right: 175px;
+}

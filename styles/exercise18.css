@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(216, 216, 216);
+}
+td{
+    font-size: 30px;
+    color: rgb(22, 177, 35);
+    padding: 10px;
+}
+table{
+    border: 2px dotted black;
+    padding: 10px;
+}
+caption{
+    font-size: 30px;
+}
+
+#price{
+    font-size: 30px;
+    color: rgb(158, 80, 158);
+}
+#glasses{
+    font-size: 30px;
+    color: rgb(158, 80, 158);
+}
+#income{
+    font-size: 30px;
+    color: rgb(158, 80, 158);
+}

@@ -1,0 +1,29 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #C0C0C0;
+}
+
+h2 span{
+    color: #103B2B;
+    text-decoration: underline;
+}
+
+blockquote{
+    color: #392852;
+}
+ul li a{
+    color: rgb(99, 127, 136);
+}
+ul li a:hover{
+    color: rgb(66, 89, 97);
+}
+ol li a{
+    color: rgb(99, 127, 136);
+}
+ol li a:hover{
+    color: rgb(66, 89, 97);
+}

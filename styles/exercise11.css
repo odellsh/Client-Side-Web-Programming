@@ -1,0 +1,46 @@
+.classes{
+    list-style-image: url("../images/star.png");
+}
+.classes li{
+    margin: 10px 0px 0px 0px;
+}
+
+.menu li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu li a{
+    color: black;
+}
+.menu li a:hover{
+    color: #f984e5;
+}
+
+hr{
+    width: 75%;
+    height: 3px;
+    background-color: antiquewhite;
+}
+table{
+    border-collapse: collapse;
+}
+.data{
+    width: 100%;
+    min-width: 500px;
+}
+th, td{
+    padding: 7px 10px 10px 10px;
+}
+th{
+    text-align: left;
+    color: orange;
+    border-bottom: 2px solid darkblue;
+    border-top: 2px solid darkblue;
+}
+tbody tr:nth-child(odd){
+    background-color: lightgrey;
+    color: rgb(100, 99, 99);
+}

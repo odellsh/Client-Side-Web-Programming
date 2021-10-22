@@ -1,0 +1,40 @@
+body{
+    background-color: gray;
+}
+@font-face {
+    font-family: 'LobsterTwo-Regular';
+    src: url('../fonts/LobsterTwo-Regular.otf');
+}
+@font-face {
+    font-family: 'LobsterTwo-Bold';
+    src: url('../fonts/LobsterTwo-Bold.otf');
+}
+
+p{
+    font-family: LobsterTwo-Regular;
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    text-shadow: 2px 1px 4px #000000;
+    letter-spacing: -2px;
+    word-spacing: normal;
+}
+
+p+p{
+    font-family: LobsterTwo-Bold;
+    text-align: center;
+    text-transform: inherit;
+    color: red;
+    letter-spacing: normal;
+    word-spacing: 7px;
+}
+span>span{
+    color: green;
+}
+
+p+p span[go]{
+    text-decoration: line-through;
+}
+p+p span:nth-of-type(2){
+    text-transform: capitalize;
+}
