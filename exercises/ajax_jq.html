@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="../scripts/jquery-3.6.0.min.js"></script> 
+</head>
+<body>
+    <div class="data"></div>
+    <script>
+        function testIt(){
+            $.ajax({
+                url: 'https://cs.appstate.edu/~jas/3440/ajax/study_abroad.php',
+                dataType: 'jsonp',
+                success: (data) => {
+                    let str='';      
+                    for (let obj of data) {
+                        str += `${obj.Term} ${obj.Country} ${obj.Dates}<br>`
+                    }
+                    $(".data").html(str);
+                }
+            });  
+        }
+        testIt(); 
+    </script>
+</body>
+</html>

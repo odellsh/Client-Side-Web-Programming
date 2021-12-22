@@ -1,0 +1,23 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <div id="language"></div>
+    <script>
+        function testIt(data){
+            let str1 = "";
+            for(obj of data){
+                str1 += obj.Firstname + " " + obj.Lastname + "<br>";
+
+            }
+            let ele = document.getElementById("language");
+            ele.innerHTML = str1;
+        }
+    </script>
+    <script src="https://cs.appstate.edu/~jas/3440/ajax/language.php?callback=testIt"></script> 
+
+</body>
+
+</html>
