@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(228, 228, 115);
+}
+td{
+    border: 1px double black;
+    padding: 6px;
+}
+table{
+    border: 1px double black;
+}
+article{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+caption{
+    font-size: 30px;
+}
+
+.clickable{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+img{
+    cursor: pointer;
+}
+input{
+    width: 3em;
+}
+
+button{
+    background-color: rgb(114, 209, 114);
+    margin: 10px;
+}
+button:hover{
+    background-color: rgb(95, 179, 95);
+}
+
+h1{
+    color:rgb(114, 209, 114);
+}

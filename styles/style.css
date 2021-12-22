@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+}
+body {
+    background-image: linear-gradient(-45deg, white, steelblue, darkgray);
+	background-size: 400% 400%;
+	animation: gradient 25s ease infinite;
+	height: 100vh;
+}
+h1, h2 {
+    text-align:center;
+}
+tr,th,td,table,tbody, label, form {
+    border: solid black;
+    border-width: 2px;
+    z-index:1;
+    margin: auto;
+    background-color: white;
+}
+form {
+    width: 40%;
+}
+@keyframes gradient {
+	0% {background-position: 0% 50%;}
+	33% {background-position: 100% 50%;}
+    66% {background-position: 0% 50%}
+	100% {background-position: 100% 50%;}
+}

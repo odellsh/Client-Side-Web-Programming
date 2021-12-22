@@ -1,0 +1,86 @@
+#logo{
+    background-color: #2b2926;
+    width: auto;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 40px;
+}
+
+table{
+    margin: 5px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    min-width: 900px;
+}
+td{
+    padding: 5px;
+    background-color: #2b2926;
+    color: white;
+}
+th{
+    padding: 5px;
+    background-color: #ffce2e;
+}
+
+hr{
+    background-color: #ffce2e;
+    border: none;
+    height: 2px;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: -6px;
+}
+h1{
+    color: white;
+    margin-left: 40px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: white;
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    background-color: #2b2926;
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-right: -8px;
+}
+
+.container2{
+    background-color: #2b2926;
+    margin-bottom: -20px;
+    padding-bottom: 30px;
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-right: -8px;
+    height: 350px;
+}
+
+.form-control{
+    position: absolute;
+    right: 60px;
+    top: 13px;
+    height: 25px;
+    width: 200px;
+}
+
+#langAndProfSelection{
+    margin: auto auto; 
+    min-width: 500px;
+}
+
+#programSelection{
+    margin: auto auto; 
+    min-width: 900;
+}
+
+#studyAbroadSelection{
+    margin: auto auto; 
+    min-width: 850px;
+}
