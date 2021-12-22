@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Project Part 1</title>
+    <script src="../scripts/jquery-3.6.0.min.js"></script>
+    <script defer src="../scripts/projectpart2.js"></script>
+    <link rel="stylesheet" href='../styles/projectpart2.css'>
+    <style>
+        caption { 
+            font-size: 2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <img id="logo" src="../images/appstatelogo.png">
+            <input type="text" name="q" placeholder="Search Terms..." class="form-control" aria-label="Search terms"></input>
+        </div>
+        <hr>
+        <div class="bot-bar">
+            <h1>Quality Enhancement Plan</h1>
+        </div>
+    </div>
+    <br>
+
+    <article>
+        <h2>Search for people by language</h2>
+        <hr>
+        <form id='langAndProfSelection'>
+            <label>Language: </label>
+            <select id='langChoice'></select>
+            <label>Proficiency: </label>
+            <select id='profChoice'></select>
+            <input id='langAndProfSubmit' type='submit' value='submit'>
+        </form>
+        <div id='langAndProf'></div>
+    </article>
+    <br>
+    <article>
+        <h2>Search for academic affiliation, country and last name</h2>
+        <hr>
+        <form id='programSelection'>
+            <label>Academic Department: </label>
+            <select id='academDeptChoice'></select>
+            <label>Academic College: </label>
+            <select id='academCollegeChoice'></select>
+            <label>Country: </label>
+            <select id='countryChoice'></select>
+            <label>Last Name: </label>
+            <select id='lastNameChoice'></select>
+            <input id='progSubmit' type='submit' value='submit'>
+        </form>
+        <div id='projectTable'></div>
+    </article>
+    <br>
+    <article>
+        <h2>Study abroad opportunities available</h2>
+        <hr>
+        <form id='studyAbroadSelection'>
+            <label>Term: </label>
+            <select id='termChoice'></select>
+            <label>Program Name: </label>
+            <select id='progChoice'></select>
+            <label>Country: </label>
+            <select id='studyAbroadCountryChoice'></select>
+            <label>Dates: </label>
+            <select id='datesChoice'></select>
+            <input id='progSubmit' type='submit' value='submit'>
+        </form>
+        <div id='studyAbroadTable'></div>
+    </article>
+    <br><br><br><br><br><br><br><br><br>
+</body>
+<div class="container2">
+    <div class="top-bar">
+        <img id="logo" src="../images/appstatelogo.png">
+        <input type="text" name="q" placeholder="Search Terms..." class="form-control" aria-label="Search terms"></input>
+    </div>
+    <div class="bot-bar">
+        <p>Contact</p>
+        <p>Quality Enhancement Plan</p>
+        <p>Paul Orkiszewski, Associate Professor<br>
+            Faculty Director of the SACSCOC Compliance Certification<br>
+            orkiszewskip@appstate.edu</p>
+        <p>Heather Langdon, Executive Director, IRAP<br>
+            SACSCOC Institutional Accreditation Liaison<br>
+            langdonhh@appstate.edu</p>
+        <br>
+        <p>Website manager: orkiszewskip (langdonhh)</p>
+        <p>Copyright 2021 Appalachian State University. All rights reserved.</p>
+    </div>
+</div>
+</html>
